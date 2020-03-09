@@ -103,7 +103,7 @@ $app->withFacades();
 
 Then, register your class alias:
 ```
-class_alias('Ixudra\Curl\Facades\Curl', 'Curl');
+class_alias('mderakhshi\Curl\Facades\Curl', 'Curl');
 ```
 Finally, you have to register your ServiceProvider (around line 70-80):
 
@@ -122,7 +122,7 @@ Finally, you have to register your ServiceProvider (around line 70-80):
 // $app->register('App\Providers\AppServiceProvider');
 
 // Package service providers
-$app->register(Ixudra\Curl\CurlServiceProvider::class);
+$app->register(mderakhshi\Curl\CurlServiceProvider::class);
 ```
 
 
