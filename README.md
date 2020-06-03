@@ -28,7 +28,7 @@ integration into your Laravel project.
 ## Installation
 
 run in terminal:
-`composer require mderakhshi/laravel-curl`
+`composer require mderakhshi/curl`
 
 ### Laravel 5.5+ Integration
 
